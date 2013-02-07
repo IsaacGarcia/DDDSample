@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DDD.Exemplopuro.Domain.DB.EspecificacoesDeAcesso.EspecificacaoFiltraPatrocinadoresPorContrato" Collapsed="true">
+    <Position X="0.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAIIAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DB\EspecificacoesDeAcesso\EspecificacaoFiltraPatrocinadoresPorContrato.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DDD.Exemplopuro.Domain.DB.EspecificacoesDeAcesso.EspecificacaoFiltrarContratosAtivos" Collapsed="true">
+    <Position X="3" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DB\EspecificacoesDeAcesso\EspecificacaoFiltrarContratosAtivos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DDD.Exemplopuro.Domain.DB.EspecificacoesDeAcesso.EspecificacaoFiltrarContratosPorPatrocinado" Collapsed="true">
+    <Position X="5.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DB\EspecificacoesDeAcesso\EspecificacaoFiltrarContratosPorPatrocinado.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DDD.Exemplopuro.Domain.DB.EspecificacoesDeAcesso.EspecificacaoPesquisaPatrociniosDeUmJogador" Collapsed="true">
+    <Position X="4" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DB\EspecificacoesDeAcesso\EspecificacaoPesquisaPatrociniosDeUmJogador.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DDD.Exemplopuro.Domain.AndEspecificacao&lt;T&gt;" Collapsed="true">
+    <Position X="7.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAIAEAAAAAAA=</HashCode>
+      <FileName>DB\EspecificacoesDeBanco\AndEspecificacao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DDD.Exemplopuro.Domain.Especificacao&lt;T&gt;" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIAAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAACAAAAA=</HashCode>
+      <FileName>DB\EspecificacoesDeBanco\Especificacao.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DDD.Exemplopuro.Domain.PatrocinadoMap" Collapsed="true">
+    <Position X="10" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DB\Mappings\Entidades\PatrocinadoMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DDD.Exemplopuro.Domain.Tipos&lt;T&gt;" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>DB\Repositorio\Tipos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DDD.Exemplopuro.Domain.Contrato" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADAAkAAAGIABgABAAQACQCAAAgAAAABAAAIAAAByA=</HashCode>
+      <FileName>Patrocinados\Contrato.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DDD.Exemplopuro.Domain.Jogador" Collapsed="true">
+    <Position X="2.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAACAACAAAAAgAAAAAAAAACAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Patrocinados\Jogador.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DDD.Exemplopuro.Domain.JogadorSoDeveTerUmNoMaximoUmContratoAtivoSpecification" Collapsed="true">
+    <Position X="15.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Patrocinados\JogadorSoDeveTerUmNoMaximoUmContratoAtivoSpecification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DDD.Exemplopuro.Domain.Patrocinado" Collapsed="true">
+    <Position X="1.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQAGAAACBACAAAAAgAAAQIAAAACiAgAAAIIAACEgAgA=</HashCode>
+      <FileName>Patrocinados\Patrocinado.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DDD.Exemplopuro.Domain.Time" Collapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAACAAAAAAAAgAAAAAAAAACAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Patrocinados\Time.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DDD.Exemplopuro.Domain.CreditoPatrocinador" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAACAAAAAAAAAAAAEAAAABBAAAAAQAAAAAgA=</HashCode>
+      <FileName>Patrocinio\CreditoPatrocinador.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DDD.Exemplopuro.Domain.TipoCredito" Collapsed="true">
+    <Position X="15.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Patrocinio\TipoCredito.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DDD.Exemplopuro.Domain.Mappings.ContratoMap" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DB\Mappings\Entidades\ContratoMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DDD.Exemplopuro.Domain.Mappings.ContratoPatrocinioMap" Collapsed="true">
+    <Position X="15.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DB\Mappings\Entidades\ContratoPatrocinioMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DDD.Exemplopuro.Domain.Mappings.CreditoPatrocinadorMap" Collapsed="true">
+    <Position X="11.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DB\Mappings\Entidades\CreditoPatrocinadorMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DDD.Exemplopuro.Domain.Mappings.JogadorMap" Collapsed="true">
+    <Position X="13.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DB\Mappings\Entidades\JogadorMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DDD.Exemplopuro.Domain.Mappings.PatrocinadorMap" Collapsed="true">
+    <Position X="13.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DB\Mappings\Entidades\PatrocinadorMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DDD.Exemplopuro.Domain.Mappings.TimeMap" Collapsed="true">
+    <Position X="13.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DB\Mappings\Entidades\TimeMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DDD.Exemplopuro.Domain.Mappings.ValueObjectMap&lt;T&gt;" Collapsed="true">
+    <Position X="5.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DB\Mappings\ValueObjects\ValueObjectMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DD.Exemplopuro.Domain.Mappings.TipoCreditoMap" Collapsed="true">
+    <Position X="5.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DB\Mappings\ValueObjects\TipoCreditoMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DDD.Exemplopuro.Domain.DB.Repositorio.BaseRepository" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAQALQAAAAgQQAgAAAAAgIAAAAAAAAAA=</HashCode>
+      <FileName>DB\Repositorio\BaseRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DDD.Exemplopuro.Domain.DB.Repositorio.Contratos" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DB\Repositorio\Contratos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DDD.Exemplopuro.Domain.DB.Repositorio.Patrocinadores" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAHABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DB\Repositorio\Patrocinadores.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DDD.Exemplopuro.Domain.DB.Repositorio.Patrocinados" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>DB\Repositorio\Patrocinados.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DDD.Exemplopuro.Domain.Patrocinio.ContratoPatrocinio" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAgAAAKIABACAACQQBAEgAAQRAAABEAAIAAAAiA=</HashCode>
+      <FileName>Patrocinio\ContratoPatrocinio.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DDD.Exemplopuro.Domain.Comercial.Patrocinador" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQECAAAAIACAAAAQAAAAAAAAAACQAAAAAAAAAAEAAgA=</HashCode>
+      <FileName>Patrocinio\Patrocinador.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DDD.Exemplopuro.Domain.Servico.ServicoObtemInformacoesJogador" Collapsed="true">
+    <Position X="15.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Servico\ServicoObtemInformacoesJogador.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DDD.Exemplopuro.Domain.Servico.ServicoObtemInformacoesTime" Collapsed="true">
+    <Position X="11.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Servico\ServicoObtemInformacoesTime.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DDD.Exemplopuro.Domain.Servico.ServicoObtemInformacoesPatrocinados" Collapsed="true">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Servico\ServicoObtermInformacoesPatrocinados.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DDD.Exemplopuro.Domain.ICriterioEspecificacao&lt;T&gt;" Collapsed="true">
+    <Position X="10" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIAAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DB\EspecificacoesDeBanco\ICriterioEspecificacao.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="DDD.Exemplopuro.Domain.TipoPatrocinadoEnum" Collapsed="true">
+    <Position X="11.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Patrocinados\Patrocinado.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DDD.Exemplopuro.Domain.TipoCreditoEnum" Collapsed="true">
+    <Position X="10" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAABAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Patrocinio\TipoCredito.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

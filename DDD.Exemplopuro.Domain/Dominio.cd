@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DDD.Exemplopuro.Domain.Contrato">
+    <Position X="0.75" Y="1" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAADAAkAAAGIABgABAAQACQCAAAgAAAABAAAIAAAByA=</HashCode>
+      <FileName>Patrocinados\Contrato.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Jogador" />
+      <Property Name="Time" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DDD.Exemplopuro.Domain.Patrocinado">
+    <Position X="4" Y="0.75" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EQAGAAACBACAAAAAgAAAQIAAAACiAgAAAIIAACEgAgA=</HashCode>
+      <FileName>Patrocinados\Patrocinado.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="TipoPatrocinado" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Contratos" />
+      <Property Name="Creditos" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DDD.Exemplopuro.Domain.CreditoPatrocinador">
+    <Position X="8" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAACAAAAAAAAAAAAEAAAABBAAAAAQAAAAAgA=</HashCode>
+      <FileName>Patrocinio\CreditoPatrocinador.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DDD.Exemplopuro.Domain.Patrocinio.ContratoPatrocinio">
+    <Position X="7.25" Y="4.75" Width="3" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="Patrocinado" Type="DDD.Exemplopuro.Domain.Patrocinado" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.594" Y="4.75" />
+        <Point X="7.594" Y="3.75" />
+        <Point X="6.25" Y="3.75" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAACAAgAAAKIABACAACQQBAEgAAQRAAABEAAIAAAAiA=</HashCode>
+      <FileName>Patrocinio\ContratoPatrocinio.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Patrocinado" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DDD.Exemplopuro.Domain.Comercial.Patrocinador">
+    <Position X="11.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQECAAAAIACAAAAQAAAAAAAAAACQAAAAAAAAAAEAAgA=</HashCode>
+      <FileName>Patrocinio\Patrocinador.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Patrocinados" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DDD.Exemplopuro.Domain.Time" Collapsed="true">
+    <Position X="0.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAACAAAAAAAAgAAAAAAAAACAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Patrocinados\Time.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DDD.Exemplopuro.Domain.Jogador" Collapsed="true">
+    <Position X="3" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAACAACAAAAAgAAAAAAAAACAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Patrocinados\Jogador.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="DDD.Exemplopuro.Domain.TipoPatrocinadoEnum">
+    <Position X="8" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Patrocinados\Patrocinado.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
